@@ -1,0 +1,8 @@
+{
+  "name": "express-mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rvsbox/express-mern.git",
+  "author": "rvsbox <rvsbox@gmail.com>",
+  "license": "MIT"
+}
