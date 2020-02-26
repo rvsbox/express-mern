@@ -6,11 +6,12 @@
   "author": "rvsbox <rvsbox@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node app.js",
-    "server": "nodemon app.js",
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "dev": "nodemon index.js"
   },
   "dependencies": {
+    "config": "^3.2.6",
     "express": "^4.17.1",
     "mongoose": "^5.9.2"
   },
