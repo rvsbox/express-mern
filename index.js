@@ -14,11 +14,13 @@ async function start() {
       useUnifiedTopology: true,
       useFindAndModify: false
     });
+    index.listen(5000, () => console.log(`App has been started ${PORT}...`));
   } catch (e) {
     console.log('Server Error', e.message)
     process.exit(1);
   }
 }
 
-index.listen(5000, () => console.log(`App has been started ${PORT}...`));
+start();
+
 
