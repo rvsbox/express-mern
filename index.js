@@ -4,6 +4,8 @@ const mongoose = require('mongoose');
 
 const index = express();
 
+app.use('/api/auth', require('./routes/authRoutes'));
+
 const PORT = config.get('port') || 5000;
 
 
