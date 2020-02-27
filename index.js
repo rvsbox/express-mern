@@ -2,7 +2,7 @@ const express = require('express');
 const config = require('config');
 const mongoose = require('mongoose');
 
-const index = express();
+const app = express();
 
 app.use('/api/auth', require('./routes/authRoutes'));
 
@@ -24,5 +24,3 @@ async function start() {
 }
 
 start();
-
-
