@@ -1,6 +1,6 @@
 {
   "port": 5000,
   "jwtSecret": "rvsbox express-mern",
-  "mongoUri": "mongodb://root:mogaba@127.0.0.1:27017/express_mern?authSource=admin"
+  "mongoUri": "mongodb://root:password@127.0.0.1:27017/express_mern?authSource=admin"
 
 }
